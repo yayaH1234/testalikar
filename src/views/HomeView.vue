@@ -13,8 +13,7 @@ import Testindex from '@/components/Testindex.vue'
 export default {
   name: 'HomeView',
   components: {
-   
-   Testindex
+    Testindex
   }
 }
 </script>

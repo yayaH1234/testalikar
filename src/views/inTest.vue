@@ -1,7 +1,8 @@
 <template>
   <div class="home">
   
-    <Testindex :idQuestion="this.indexQuestion" />
+    <!--Testindex :idQuestion="this.indexQuestion" /-->
+    <Testindex :idQuestion=0 />
   </div>
 </template>
 
@@ -23,7 +24,7 @@ data(){
          initData(){
      //this.$route.params.id
      this.indexQuestion=parseInt(this.$route.params.id)
-       this.indexQuestion--
+     //  this.indexQuestion--
      //  alert(this.indexQuestion)
      }
      
